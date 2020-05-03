@@ -1,0 +1,1 @@
+{"ast":null,"code":"import '../styles/global.css';","map":{"version":3,"sources":["/Users/wisord/Documents/Trabajo/ThoracicCare/pages/_app.js"],"names":[],"mappings":"AAAA,OAAO,sBAAP","sourcesContent":["import '../styles/global.css';\n\n\n"]},"metadata":{},"sourceType":"module"}
