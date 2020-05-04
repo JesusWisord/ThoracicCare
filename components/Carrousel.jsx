@@ -75,7 +75,6 @@ export default function Carrousel() {
         {`
         .image-container {
           max-width: 100vw;
-          height: 500px;
           position: relative;
         }
         .image-container img {
@@ -96,6 +95,32 @@ export default function Carrousel() {
         .text-block :global(p){
           font-size: 28px;
           padding-top: 10px;
+        }
+        @media screen and (max-width: 700px) {
+          .image-container .text-block{
+            font-size: 28px;
+            left: 50px;
+          }
+          .image-container .text-block p{
+            font-size: 22px;
+          }
+        @media screen and (max-width: 500px) {
+          .image-container .text-block{
+            font-size: 24px;
+            left: 50px;
+          }
+          .image-container .text-block p{
+            font-size: 18px;
+          }
+        }
+        @media screen and (max-width: 450px) {
+          .image-container .text-block{
+            font-size: 18px;
+            left: 50px;
+          }
+          .image-container .text-block p{
+            font-size: 12px;
+          }
         }
         `}
       </style>

@@ -3,10 +3,6 @@ import { IconContext } from 'react-icons';
 import { GrTwitter, GrInstagram, GrFacebook } from 'react-icons/gr';
 import styles from './Header.module.css';
 
-const handleClick = (e) => {
-  e.target.classList.add('active');
-};
-
 export default function Header() {
   return (
     <>
@@ -30,6 +26,7 @@ export default function Header() {
               </a>
             </IconContext.Provider>
           </div>
+          <a className="button" href="/">Cita</a>
         </div>
         <div className="bottom-section">
           <img src="/static/logoHorizontal.jpg" alt="Logo Horizontal" />
@@ -47,6 +44,20 @@ export default function Header() {
         {`
         header{
           height: 100%;
+        }
+        .button{
+          height: 100%;
+          background-color: #C90D37;
+          color: white;
+          border: none;
+          cursor: pointer;
+          width: 120px;
+          font-size: 2rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+          text-decoration: none;
         }
         .top-section{
           height: 40px;
@@ -102,6 +113,39 @@ export default function Header() {
           background-color: white;
           color: black;
           width: 150px;
+        }
+        @media screen and (max-width: 1100px) {
+          .bottom-section img {
+            height: 60px;
+          }
+          .button{
+            font-size: 24px;
+          }
+          li{
+            width: auto;
+            min-width: 100px;
+          }
+        }
+        @media screen and (max-width: 800px) {
+          .bottom-section img {
+            height: 40px;
+          }
+        }
+        @media screen and (max-width: 700px) {
+          .bottom-section img {
+            height: 30px;
+          }
+        }
+        @media screen and (max-width: 600px) {
+          nav {
+            display: none;
+          }
+          .top-section{
+            padding-left: 10px;
+          }
+          .bottom-section{
+            background-color: var(--second-brand-color);
+          }
         }
       `}
       </style>

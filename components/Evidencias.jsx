@@ -20,8 +20,8 @@ export default function Evidencias() {
             margin: 50px 0;
           }
           .image-container{
-            width: 90vw;
-            margin-left: 100px;
+            width: 100vw;
+            padding-left: 5vw;
             display: flex;
             overflow: scroll;
           }
@@ -30,8 +30,13 @@ export default function Evidencias() {
             margin-right: 20px;
             border-radius: 25px;
           }
+          @media screen and (max-width: 1100px) {
+            img{
+              height: 250px;
+            }
+          }
         `}
-        </style>
+      </style>
     </>
   );
 }

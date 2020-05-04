@@ -20,8 +20,8 @@ export default function MiniCard() {
       <style jsx>
         {`
           .mini-card-item{
-            height: 150px;
-            width: 500px;
+            min-height: 150px;
+            max-width: 500px;
             display: flex;
             align-items: center;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -39,6 +39,24 @@ export default function MiniCard() {
           }
           .text-container{
             margin-left: 10px;
+          }
+          @media screen and (max-width: 1100px) {
+            h1{
+              font-size: 24px;
+            }
+            p{
+              font-size: 14px;
+            }
+          }
+          @media screen and (max-width: 700px) {
+            .mini-card-item{
+              display: block;
+            }
+          }
+          @media screen and (max-width: 500px) {
+            img {
+              height: 50px;
+            }
           }
         `}
       </style>
