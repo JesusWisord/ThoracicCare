@@ -1,38 +1,34 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/runtime/react-refresh.js",
+    "static/runtime/react-refresh.js.map",
+    "static/development/dll/dll_dc8ac110ce5d8530b237.js",
+    "static/development/dll/dll_dc8ac110ce5d8530b237.js.map"
+  ],
   "lowPriorityFiles": [
-    "static/2vUrFPYm5E8s31XsRJPEP/_buildManifest.js",
-    "static/2vUrFPYm5E8s31XsRJPEP/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "pages": {
     "/": [
-      "static/runtime/webpack-c212667a5f965e81e004.js",
-      "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/6728d85a.0c1cb6df0f673ca330e1.js",
-      "static/css/0deb7479dc9c5e059b1d.css",
-      "static/runtime/main-60b50979cfb881eda583.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_app": [
-      "static/runtime/webpack-c212667a5f965e81e004.js",
-      "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/145a5aa74915639bf8d37415b94139515b98ba80.d74a4cff23e48f995232.js",
-      "static/css/a520dd4a1c2e134d2c22.css",
-      "static/runtime/main-60b50979cfb881eda583.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-c212667a5f965e81e004.js",
-      "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/runtime/main-60b50979cfb881eda583.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills-e4875719f3b6f90f1438.js"
+      "static/runtime/polyfills.js",
+      "static/runtime/polyfills.js.map"
     ],
     "/index": [
-      "static/runtime/webpack-c212667a5f965e81e004.js",
-      "static/chunks/framework.c6faae2799416a6da8e8.js",
-      "static/chunks/6728d85a.0c1cb6df0f673ca330e1.js",
-      "static/css/0deb7479dc9c5e059b1d.css",
-      "static/runtime/main-60b50979cfb881eda583.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

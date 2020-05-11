@@ -1,27 +1,37 @@
 import React from 'react';
-import MiniCard from './MiniCard';
+import { FiClock, FiPhone, FiMap } from 'react-icons/fi';
+
+import styles from './styles/MiniCardInfo.module.css';
 
 export default function MiniCardContainer() {
   return (
     <>
-      <div className="mini-card-container">
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
-        <MiniCard />
+      {/* First clock item */}
+      <div className={`${styles.miniCardContainer} col-lg-3 col-4 offset-lg-0 offset-1 d-flex align-items-center`}>
+        <FiClock className={styles.icon} />
+        <div className={`${styles.textContainer} ml-2`}>
+          <p>Sábado y Domingo CERRADO</p>
+          <p>Lunes a Viernes 09:00 - 16:00</p>
+        </div>
       </div>
-      <style jsx>
-        {`
-        .mini-card-container{
-          width: 80vw;
-          margin: 50px auto 0 auto;
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-gap: 20px;
-          justify-items: center;
-        }
-        `}
-      </style>
+
+      {/* Second phone item */}
+      <div className={`${styles.miniCardContainer} col-lg-2 col-3 d-flex align-items-center`}>
+        <FiPhone className={styles.icon} />
+        <div className={`${styles.textContainer} ml-2`}>
+          <p>¡Llámanos!</p>
+          <p>(55) 52 567 539</p>
+        </div>
+      </div>
+
+      {/* Third map item */}
+      <div className={`${styles.miniCardContainer} col-lg-2 col-3 d-flex align-items-center`}>
+        <FiMap className={styles.icon} />
+        <div className={`${styles.textContainer} ml-2`}>
+          <p>Dirección</p>
+          <p>Estado</p>
+        </div>
+      </div>
     </>
   );
 }

@@ -4,6 +4,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 /* This file comes right from the documentation of Next */
 import '../styles/global.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />;

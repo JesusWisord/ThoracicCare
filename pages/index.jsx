@@ -1,21 +1,25 @@
 import React from 'react';
 import Header from '../components/Header';
-import Carrousel from '../components/Carrousel';
-import CardContainer from '../components/CardContainer';
-import MiniCardContainer from '../components/MiniCardContainer';
+import NavBar from '../components/NavBar';
+import CarouselContainer from '../components/CarouselContainer';
+import Especialidades from '../components/Especialidades';
+import Nosotros from '../components/Nosotros';
+import Galeria from '../components/Galeria';
 import Servicios from '../components/Servicios';
-import Evidencias from '../components/Evidencias';
+import Map from '../components/Map';
 import Footer from '../components/Footer';
 
 export default function index() {
   return (
     <>
       <Header />
-      <Carrousel />
-      <CardContainer />
-      <MiniCardContainer />
+      <NavBar />
+      <CarouselContainer />
+      <Especialidades />
+      <Nosotros />
+      <Galeria />
       <Servicios />
-      <Evidencias />
+      <Map />
       <Footer />
     </>
   );

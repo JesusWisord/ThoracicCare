@@ -1,0 +1,10 @@
+.galeriaContainer{
+  width: 100%;
+  height: 25vh;
+  display: flex;
+}
+
+.galeriaContainer img{
+  width: 33.3%;
+  object-fit: cover;
+}

@@ -1,0 +1,16 @@
+.icon{
+  height: 30px;
+  width: 30px;
+  color: #1d5b9c;
+  margin-right: 30px;
+}
+
+.header{
+  background-color: #D6E9F3;
+}
+
+@media screen and (max-width: 350px){
+  .icon{
+    margin-right: 10px;
+  }
+}

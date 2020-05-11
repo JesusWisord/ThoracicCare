@@ -18,22 +18,14 @@ body {
   box-sizing: border-box;
 }
 
-.slick-next {
-  right: 0;
+.bg-first-color{
+  background-color: var(--first-brand-color);
 }
-
-.slick-prev {
-  left: 0;
-  z-index: 1;
+.bg-second-color{
+  background-color: var(--second-brand-color);
 }
-
-.slick-next, .slick-prev {
-  width: auto;
-  height: auto;
-}
-
-.slick-next:before, .slick-prev:before {
-  font-size: 50px;
+.bg-third-color{
+  background-color: var(--third-brand-color);
 }
 
 @media screen and (max-width: 1000px) {

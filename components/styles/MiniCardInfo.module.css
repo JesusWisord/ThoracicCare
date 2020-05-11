@@ -1,0 +1,41 @@
+.textContainer{
+  font-size: 12px;
+  color: var(--third-brand-color);
+}
+
+.textContainer p {
+  margin: 0;
+}
+
+.textContainer p:nth-child(2){
+  color: var(--second-brand-color);
+  font-weight: bold;
+}
+
+.icon{
+  height: 40px;
+  width: 40px;
+  color: var(--third-brand-color);
+}
+
+@media screen and (max-width: 1000px) {
+  .miniCardContainer{
+    padding: 20px 0;
+  }
+}
+@media screen and (max-width: 600px){
+  .miniCardContainer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .textContainer{
+    font-size: 10px;
+  }
+
+  .icon{
+    width: 25px;
+    height: 25px;
+  }
+}

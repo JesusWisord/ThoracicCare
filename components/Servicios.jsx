@@ -1,38 +1,63 @@
 import React from 'react';
-import ListItem from './ListItem';
+
+import styles from './styles/Servicios.module.css';
 
 export default function Servicios() {
   return (
-    <>
-      <section className="" id="Servicios">
-        <div className="especialidades">
-          <h1>| Especialidades</h1>
-          <ListItem />
-          <ListItem />
-          <ListItem />
-          <ListItem />
+    <section className={styles.serviciosContainer}>
+      <h3>Servicios</h3>
+      <h4>¿Qué es lo que hacemos?</h4>
+      <div className={styles.cardContainer}>
+        <div className={styles.cardItem}>
+          <img src="/icons/icons8-medical-symbol-100.png" alt="icon" />
+          <h4>Servicio</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
+            mollis dictum facilisis placerat congue ut.
+          </p>
         </div>
-        <div className="servicios">
-          <h1>| Servicios</h1>
-          <ListItem />
-          <ListItem />
-          <ListItem />
-          <ListItem />
-          <ListItem />
-          <ListItem />
+        <div className={styles.cardItem}>
+          <img src="/icons/icons8-medical-symbol-100.png" alt="icon" />
+          <h4>Servicio</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
+            mollis dictum facilisis placerat congue ut.
+          </p>
         </div>
-      </section>
-      <style jsx>
-        {`
-          section{
-            width: 90vw;
-            margin: 100px auto;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 20px;
-          }
-        `}
-      </style>
-    </>
+        <div className={styles.cardItem}>
+          <img src="/icons/icons8-medical-symbol-100.png" alt="icon" />
+          <h4>Servicio</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
+            mollis dictum facilisis placerat congue ut.
+          </p>
+        </div>
+        <div className={styles.cardItem}>
+          <img src="/icons/icons8-medical-symbol-100.png" alt="icon" />
+          <h4>Servicio</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
+            mollis dictum facilisis placerat congue ut.
+          </p>
+        </div>
+        <div className={styles.cardItem}>
+          <img src="/icons/icons8-medical-symbol-100.png" alt="icon" />
+          <h4>Servicio</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
+            mollis dictum facilisis placerat congue ut.
+          </p>
+        </div>
+        <div className={styles.cardItem}>
+          <img src="/icons/icons8-medical-symbol-100.png" alt="icon" />
+          <h4>Servicio</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed
+            mollis dictum facilisis placerat congue ut.
+          </p>
+        </div>
+
+      </div>
+    </section>
   );
 }
