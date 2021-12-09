@@ -28,7 +28,7 @@
   "homepage": "https://github.com/JesusWisord/ThoracicCare#readme",
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "next": "^9.3.6",
+    "next": "^11.1.3",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
